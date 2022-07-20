@@ -13,6 +13,7 @@ Financial institutions used credit risk analysis models to determine the probabi
 * How is the distribution The Loan Grade and Intent of customers? Which type and grade dominant the most and the least?
 * How is the Loan Status for each of the customers? How does it affect each of the customers loan amount type and grade?
 * How are both of the Home ownership and Income yearly of customer affect loan amount type and grade?
+* Which factor contributes the most in terms of credit loan apporval?
 
 ### Project Step by step:
 * Dataset Profiing
@@ -48,7 +49,6 @@ Financial institutions used credit risk analysis models to determine the probabi
 
 ### Descriptive Statistics
 
-
 Following insight we can get from the aboive statistics:
 * Average yearly income of customers are in the range of 67000 USD.
 * While average Loan amount is in the range of 9600 USD. 
@@ -58,5 +58,10 @@ Following insight we can get from the aboive statistics:
 `Age` Feature <br>
 
 * Majority of customers are in their late 20's and early 30's. 
-* Loan amount for all ranges of cutomers are quite diverse. Interestingly, age does not solely determine the amount of loan of a given customer. Because, say we usually assume the mature ones (around their late 30's and 40's) having much more money than the rest of the customer age range, hence we commonly assume there will be a gap disparity in terms of the amount money loaned by these group of customer compared to the rest. However, this is no thte case here.
-* All acorss age range have  
+* Loan amount for all ranges of cutomers are quite diverse. Interestingly, age does not solely determine the amount of loan of a given customer. Because, say we usually assume the mature ones (around their late 30's and 40's) having much more money than the rest of the customer age range, hence we commonly assume there will be a gap disparity in terms of the amount money loaned by these group of customer compared to the rest. However, this is no the case here.
+* The Loan intent are also diverse across all customer's age ranges. Age also does not solely determine the loan type / intent of a customer. Sewms like every age group have their own objective of pursuing a loan which falls to one of the categories. 
+* While for Loan grade is qiute diverse aswell across all customer's age range, albeit many of younger ones preter to go wtih the lower grade ones (F and G class).
+
+`Income` Features
+
+* 

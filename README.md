@@ -64,4 +64,10 @@ Following insight we can get from the aboive statistics:
 
 `Income` Features
 
-* 
+* IF we take a look to amount of loan, we can see that a high income of a customer does not straight correlate with a higher amount of loan. Similar to that `Age` previously, it is quite diverse. 
+* For The Loan Intent is similar across all age, the high earner customers and the lower ones do have their own objective of pursuing fonje of these loan intent categories. 
+* Loan grade pretty much in line with the how much customers earn, The hihger earning ones surely choosing the 1st and 2nd tier grade whilst the lower ones choosing the 4th and 5th tier grade. 
+
+`Home Ownership` Feature
+
+

@@ -89,3 +89,10 @@ Loan status refers to a default condition of a given customers. Default is the f
 * Bank should look out more closely on customers who take would loans either for medical and debtconsolidation purposes as these categories are the ones defaulting the most. At the same time, should also look out of customers with a lower tier grade loans, as the plot suggests, defaulting customers are ones who took the lower grades loan grades (5th, 4th and 3rd tier).
 
 ### Supervised Classification Model
+Using Pycaret as our tool for data processing and model building / implementation. The figure follows is the setting for the grid processing.
+
+### Model Building and Implementation
+* Comparing and evaluating models performaces. We want to look at the `AUC score` as means to compare and evaluate models above. Due to the imbalanced nature of our dataset, `AUC score` is more precise and accurate than your regular Accuracy metric, though F1 harmony metric can also be tool to evaluate our models.
+* One note aside from looking at a higher `AUC score`, we may want to look at and also consider other factor, which is the time. Time refers to how long the model took to implement to dataset. As we can see
+* SO based on that consideration we will use Random Forest, LGBM alongside Graident Boosting Classifier as a base models.
+

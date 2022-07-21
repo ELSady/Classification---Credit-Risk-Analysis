@@ -80,6 +80,7 @@ Following insight we can get from the aboive statistics:
 * For loan grade based on customers home ownership, rent-homeownership mostly take the B and A grade, mortgage-homeownership mostly take the A grade, customers owning their house are also mostly A grade aswell.
 
 `Loan Status` Feature <br>
+
 Loan status refers to a default condition of a given customers. Default is the failure to make required interest or principal repayments on a debt, whether that debt is a loan or a security.  
 
 

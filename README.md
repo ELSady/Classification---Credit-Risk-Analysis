@@ -122,7 +122,12 @@ Following we get the insight:
 * Well use hyperparameter-tuned LGBM classificatio model and implement it to test set.
 
 
-* THe LGBM model fits very well to dataset, getting an `AUC` score of 0.97 on test set. This will be the model used for future incoming datas.
+* The LGBM model fits very well to dataset, getting an `AUC` score of 0.97 on test set. This will be the model used for future incoming datas.
 
 ### Conclusion 
-
+* Average yearly income of customers are 67000 USD, average Loan amount are  9600 USD, average emplyment of customers are 4 to 5 years.
+* Majority of customers are in their late 20's and early 30's. Loan amount for all ranges of cutomers are quite diverse, age does not solely determine the amount of loan of a given customer. Age also does not solely determine the loan type / intent of a customer. While for Loan grade is quite diverse aswell across all customer's age range, albeit many of younger ones preter to go wtih the lower grade ones (F and G class).
+* Customers home ownership distribution 41% are mortage, while the rest of 9% of customers owned their house, 1 % fo other categories. Average amount of loan is no different amongst all of 4 homewnership categories. Loan interest rate are around 10 and 11 USD.
+* Majority of customers taking a loan are either rent or mortgage their house, only a handful of them own the house and very few in other's category. Rent-home ownership customer they mostly taking a lona for medical and education purposes, mortgage-homeownership customers mostly for education and debt consolidation purpose, for customers owning their house majority take loans for venture. For loan grade, rent-homeownership mostly take the B and A grade, mortgage-homeownership mostly take the A grade, customers owning their house are also mostly A grade.
+* 22% percent of customers are defaulting. Customers who are defaulting are ones who have higher loan amount, loan interest and loan percentage in respect to their yearly income cmopared to non defautl ones. Especially the latter one with an oustanding 20% of incomme cmopared to 10% of non-default counterpart.
+* Bank should look out more closely on customers who take would loans either for medical and debtconsolidation purposes as these categories are the ones defaulting the most. At the same time, should also look out of customers with a lower tier grade loans, as the plot suggests, defaulting customers are ones who took the lower grades loan grades (5th, 4th and 3rd tier).

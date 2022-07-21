@@ -60,14 +60,15 @@ Following insight we can get from the aboive statistics:
 * Majority of customers are in their late 20's and early 30's. 
 * Loan amount for all ranges of cutomers are quite diverse. Interestingly, age does not solely determine the amount of loan of a given customer. Because, say we usually assume the mature ones (around their late 30's and 40's) having much more money than the rest of the customer age range, hence we commonly assume there will be a gap disparity in terms of the amount money loaned by these group of customer compared to the rest. However, this is no the case here.
 * The Loan intent are also diverse across all customer's age ranges. Age also does not solely determine the loan type / intent of a customer. Sewms like every age group have their own objective of pursuing a loan which falls to one of the categories. 
-* While for Loan grade is qiute diverse aswell across all customer's age range, albeit many of younger ones preter to go wtih the lower grade ones (F and G class).
+* While for Loan grade is quite diverse aswell across all customer's age range, albeit many of younger ones preter to go wtih the lower grade ones (F and G class).
 
 `Income` Features
 
 * IF we take a look to amount of loan, we can see that a high income of a customer does not straight correlate with a higher amount of loan. Similar to that `Age` previously, it is quite diverse. 
 * For The Loan Intent is similar across all age, the high earner customers and the lower ones do have their own objective of pursuing fonje of these loan intent categories. 
-* Loan grade pretty much in line with the how much customers earn, The hihger earning ones surely choosing the 1st and 2nd tier grade whilst the lower ones choosing the 4th and 5th tier grade. 
+* Loan grade pretty much in line with the how much customers earning, the hihger earning ones surely choosing the 1st and 2nd tier grade whilst the lower ones choosing the 4th and 5th tier grade. 
 
 `Home Ownership` Feature
 
-
+* Distribution for home ownerships of all customers we can see majority of customers are either renting or mortgaging their houses, to be specific 50% are rent, 41% are mortage, while the rest of 9% of customers owned their house, 1 % fo other categories.
+* For amount of loanbased on the home wonsership, seem like customers with 

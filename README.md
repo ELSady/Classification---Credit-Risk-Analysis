@@ -63,13 +63,13 @@ Following insight we can get from the aboive statistics:
 * The Loan intent are also diverse across all customer's age ranges. Age also does not solely determine the loan type / intent of a customer. Sewms like every age group have their own objective of pursuing a loan which falls to one of the categories. 
 * While for Loan grade is quite diverse aswell across all customer's age range, albeit many of younger ones preter to go wtih the lower grade ones (F and G class).
 
-`Income` Features
+`Income` Features <br>
 
 * IF we take a look to amount of loan, we can see that a high income of a customer does not straight correlate with a higher amount of loan. Similar to that `Age` previously, it is quite diverse. 
 * For The Loan Intent is similar across all age, the high earner customers and the lower ones do have their own objective of pursuing fonje of these loan intent categories. 
 * Loan grade pretty much in line with the how much customers earning, the hihger earning ones surely choosing the 1st and 2nd tier grade whilst the lower ones choosing the 4th and 5th tier grade. 
 
-`Home Ownership` Feature
+`Home Ownership` Feature <br>
 
 * Distribution for home ownerships of all customers we can see majority of customers are either renting or mortgaging their houses, to be specific 50% are rent, 41% are mortage, while the rest of 9% of customers owned their house, 1 % fo other categories.
 * Average amount of loan based on their home wonership, it seems to be relativel;y no different amongst all of these categories with an average of around 10000 USD. Specificly, Other-home ownership customers borrowed the most around 12000 USD, followed by mortgage of around 11000 USD then own for around 9000 lanstly rent similar ot own, around 8000 USD>
@@ -79,7 +79,7 @@ Following insight we can get from the aboive statistics:
 * Customers Loan Intent baed on their home ownership, we can see majority of customers taking a loan are either rent or mortgage their house, whilst noly a handful of them own the house and very few in other's category. Rent-home ownership customer they mostly taking a lona for medical and education purposes, whiloe mortgage-homeownership customers mostly for education and debt consolidation purpose, for customers owning their house majority take loans for venture. 
 * For loan grade based on customers home ownership, rent-homeownership mostly take the B and A grade, mortgage-homeownership mostly take the A grade, customers owning their house are also mostly A grade aswell.
 
-`Loan Status` Feature
+`Loan Status` Feature <br>
 Loan status refers to a default condition of a given customers. Default is the failure to make required interest or principal repayments on a debt, whether that debt is a loan or a security.  
 
 

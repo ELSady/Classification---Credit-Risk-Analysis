@@ -35,20 +35,34 @@ Financial institutions used credit risk analysis models to determine the probabi
 ### Dataset Profiling 
 * Dataset consists of 2240 observations and 29 features with a total size of 64960. 
 
+![Screenshot 2022-07-21 at 16-59-17 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188381-7a9a3544-88ee-40e2-ac99-6ac8fe6f15dc.png)
+
+* There are 12 features in dataset, 8 of them are of numerical and the rest of 4 are categorical.
+
+![Screenshot 2022-07-21 at 16-59-41 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188787-8315ad2a-0cc9-4186-9793-023c67980384.png)
 
 * 3116 missing values detected on `Loan Interest Rate` feature, and 895 were found on `Employment Length` one. Because of both features missing values are in still within the range threshold of values 5% FIlling factor, we have the option to drop them. However, instead we will impute the values, because at the end of the day, data is data and it is too valuable to just be dropped. 
 
+![Screenshot 2022-07-21 at 16-59-41 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188440-d171815e-a85f-4d98-80e3-a70aaabd8fdd.png)
 
 ### Data Cleaning 
 * Imputing the missing values occured on `Loan Interest Rate` and `Employment Length` using scikit learn.
 
+![Screenshot 2022-07-21 at 17-01-18 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188829-a5e0fbeb-9f8a-4bbe-bf17-d663bb6157d1.png)
+
 * Checking for anomaly values. There were non detected, 
 
+![Screenshot 2022-07-21 at 17-00-53 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188850-beec1193-33d0-4f05-aed0-4b76b4b5cba9.png)
+
 * Cross checking for any missing values within dataset.
+
+![Screenshot 2022-07-21 at 17-01-38 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188879-740b2557-5100-4509-980a-ace53f0b975c.png)
 
 * Dataset is clean.
 
 ### Descriptive Statistics
+
+![Screenshot 2022-07-21 at 17-01-52 Credit Risk Classification - Jupyter Notebook](https://user-images.githubusercontent.com/96014656/180188916-44afb077-124c-463a-8473-27b4b549139b.png)
 
 Following insight we can get from the aboive statistics:
 * Average yearly income of customers are in the range of 67000 USD.

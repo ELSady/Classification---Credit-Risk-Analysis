@@ -2,7 +2,8 @@
 * Dataset consists of 32581 customer's credit history from The Bank on top of their current credit loan status.
 * Visualize each customers's Loan Amount, Grade, Intent, Interest Rate and Income Perentage.
 * Visualize and analyze those above features and how they fare based on customer's Age, Income yearly, Home Ownership and Loan Status.
-* Build Supervised Machine learning Classification model, checking its feature importance and Shap value to determine which features contributes when it comes to predicting customer's response for the current campaign.
+* Visualize and analyze which customers segment who are likely to default of their loans.
+* Build Supervised Machine learning Classification model, checking its feature importance and Shap value to determine which features contributes when it comes to predicting customer's default of their payment obligation.
 
 ![Are-you-eligible-for-the-reduced-home-loan-interest-rates-FB-1200x700-compressed](https://user-images.githubusercontent.com/96014656/179934775-73e29d3f-bd60-436c-afbf-44c797912c92.jpg) <br>
 
@@ -13,7 +14,7 @@ Financial institutions used credit risk analysis models to determine the probabi
 * How is the distribution The Loan Grade and Intent of customers? Which type and grade dominant the most and the least?
 * How is the Loan Status for each of the customers? How does it affect each of the customers loan amount type and grade?
 * How are both of the Home ownership and Income yearly of customer affect loan amount type and grade?
-* Which factor contributes the most in terms of credit loan apporval?
+* Which factor contributes the most in terms of credit loan default?
 
 ### Project Step by step:
 * Dataset Profiing
@@ -77,3 +78,13 @@ Following insight we can get from the aboive statistics:
 
 * Customers Loan Intent baed on their home ownership, we can see majority of customers taking a loan are either rent or mortgage their house, whilst noly a handful of them own the house and very few in other's category. Rent-home ownership customer they mostly taking a lona for medical and education purposes, whiloe mortgage-homeownership customers mostly for education and debt consolidation purpose, for customers owning their house majority take loans for venture. 
 * For loan grade based on customers home ownership, rent-homeownership mostly take the B and A grade, mortgage-homeownership mostly take the A grade, customers owning their house are also mostly A grade aswell.
+
+`Loan Status` Feature
+Loan status refers to a default condition of a given customers. Default is the failure to make required interest or principal repayments on a debt, whether that debt is a loan or a security.  
+
+
+* We can already see that 22% percent of customers are defaulting from their payment obligation. May want to take deep dive look of this, and determine which segment of customers will likely default from their payment obligation.
+* It is clearly seen, customers who are defaulting are ones who have higher loan amount, loan interest and loan percentage in respect to their yearly income cmopared to non defautl ones. Especially the latter one with an oustanding 20% of incomme cmopared to 10% of non-default counterpart. Now, in normal circumstances this wuold not be a problem, however, should this be a major factor of customer defaulting then it needs to be something of concern.
+* Bank should look out more closely on customers who take would loans either for medical and debtconsolidation purposes as these categories are the ones defaulting the most. At the same time, should also look out of customers with a lower tier grade loans, as the plot suggests, defaulting customers are ones who took the lower grades loan grades (5th, 4th and 3rd tier).
+
+### Supervised Classification Model

@@ -93,6 +93,36 @@ Using Pycaret as our tool for data processing and model building / implementatio
 
 ### Model Building and Implementation
 * Comparing and evaluating models performaces. We want to look at the `AUC score` as means to compare and evaluate models above. Due to the imbalanced nature of our dataset, `AUC score` is more precise and accurate than your regular Accuracy metric, though F1 harmony metric can also be tool to evaluate our models.
-* One note aside from looking at a higher `AUC score`, we may want to look at and also consider other factor, which is the time. Time refers to how long the model took to implement to dataset. As we can see
-* SO based on that consideration we will use Random Forest, LGBM alongside Graident Boosting Classifier as a base models.
+* One note aside from looking at a higher `AUC score`, we may want to look at and also consider other factor, which is the time. Time refers to how long the model took to implement to dataset. As we can see LGBM model is the fatest amngst all models tested, it is also the best in terms of `AUC` score.
+* So then we will use LGBM alongside Graident Boostingand Random Classifier as a base models (top 3 models).
+
+### Models Feature Importance
+`LGBM Classifier` <br>
+
+`Gradient Boosting Classifier` <br>
+
+`Random Forest` <br>
+
+From the 3 models importance plot above we get the following:
+* Seems like 3 models agree on 2 of the most important ones. Income and Loan percentage in respect to Income.
+* We may want to take a look further in to those 2 features and how much they will affect the prediciton of customers defaulting from the loan.
+* Shap interpletation plot can assits us to get a bettter idea of it.
+
+### Shapley Model Interpretation
+`LGBM Shap Plot` <br>
+
+`Random Forest Shap Plot` <br>
+
+Following we get the insight:
+* Higher earning cusomers customers will have a high and negative impacts on credit loan default (Chance of customers defaulting is low).
+* On the other hand,the opposite is true for loan percentage over income of customers, a higher value of this leads to a high and positive impact on credit loan default (Chance of customers defaulting is high).
+
+### Best Model Selection and Predicts it on the hold out set.
+
+* Well use hyperparameter-tuned LGBM classificatio model and implement it to test set.
+
+
+* THe LGBM model fits very well to dataset, getting an `AUC` score of 0.97 on test set. This will be the model used for future incoming datas.
+
+### Conclusion 
 
